@@ -14,7 +14,7 @@ $(function () {
     // 从layui中获取form对象
     var form = layui.form
     var layer = layui.layer
-    // 通过form.verify()函数自定义jiaoyanguize
+    // 通过form.verify()函数自定义校验规则
     form.verify({
         // 自定义pwd校验规则
         pwd: [
